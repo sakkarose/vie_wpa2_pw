@@ -1,4 +1,4 @@
-# WiFi Password Dictionaries
+# Handcrafted WiFi Password Dictionaries & Rules for VIE Access Points
 
 This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam.
 
