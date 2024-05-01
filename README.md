@@ -8,6 +8,8 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **date_of_birth.txt** -  Common Vietnamese date-of-birth formats (DDMMYYYY and MMDDYYYY), covering the years 1970 to 2024.  Generated and optimized using DoB_gen.py.
 
+* **vie-phonenumber_main.txt** - Replaced by .rule file.
+
 * **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Prioritizes commonly used prefixes from major providers (Viettel, Mobifone, and Vinaphone).
 
 **On-going Projects**
