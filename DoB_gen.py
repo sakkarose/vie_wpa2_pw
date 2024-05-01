@@ -13,7 +13,7 @@ def remove_duplicates(filename):
     with open(filename, "w") as outfile:  
         outfile.writelines(unique_lines)
 
-filename = "date_of_birth.txt" 
+filename = "vie-date_of_birth.txt" 
 
 with open(filename, "a") as outfile:  
     for year in range(1970, 2025):
