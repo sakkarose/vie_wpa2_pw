@@ -17,6 +17,9 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **vie-phonenumber_sub.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Consists of prefixes from minor providers including Vietnammobile, Gmobile, Itelecom, Wintel, VNSKY, FPT and myLocal (Vietnamobile 052, 056, 058, 092 / Gmobile 059, 099 / Itelecom 087 / Wintel 0559 / VNSKY 0777 / FPT 0775 / myLocal 0898, 0896, 0899).
 
+* **vie-miscnumber.rule** -A Hashcat rule file designed for many short masks that aren't long enough to warrant a separate rule file. This includes:
+  - 8-digits Vietnamese Hotline prefixs (1800 & 1900)
+
 **Miscellaneous**
 
 * **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlist.
