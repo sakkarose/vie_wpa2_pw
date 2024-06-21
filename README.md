@@ -6,7 +6,10 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **rockyou_wpa2.txt** - A modified version of the classic Rockyou wordlist optimized for WPA2 password attacks (original source: Kali Linux 2021.3).
 
-* **date_of_birth.txt** -  Common Vietnamese date-of-birth formats (DDMMYYYY and MMDDYYYY), covering the years 1970 to 2024.  Generated and optimized using DoB_gen.py.
+* **vie-common_date.txt** -  Combined common Vietnamese possible date-related formats. Generated and optimized using CDate_gen.py.
+  - DDMMYYYY & MMDDYYYY as legit days 1970 to 2025.
+  - YYYY+yyyy with both being years from 1970 to 2025.
+  - DDMM+ddmm with both being possible date in a year.
 
 * **vie-phonenumber_main.txt** - Replaced by .rule file.
 
