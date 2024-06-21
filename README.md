@@ -11,9 +11,11 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
   - Every combinations of 2 random years from 1970 to 2025 in YYYY+yyyy format.
   - Every combinations of 2 random date in a year in DDMM+ddmm MMDD+mmdd formats.
 
-* **vie-phonenumber_main.txt** - Replaced by .rule file.
+* **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files.
 
-* **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Prioritizes commonly used prefixes from major providers (Viettel, Mobifone, and Vinaphone).
+* **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Prioritizes prefixes from major providers including Viettel, Mobifone, and Vinaphone (Viettel 032, 033, 034, 035, 036, 037, 038, 039, 086, 096, 097, 098 / Mobifone 070, 076, 077, 078, 079, 089, 090, 093 / Vinaphone 081, 082, 083, 084, 085, 088, 091, 094). Prefixes (033, 086, 077, 093, 088) have higher priority than the rests.
+
+* **vie-phonenumber_sub.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Consists of prefixes from minor providers including Vietnammobile, Gmobile, Itelecom, Wintel, VNSKY, FPT and myLocal (Vietnamobile 052, 056, 058, 092 / Gmobile 059, 099 / Itelecom 087 / Wintel 0559 / VNSKY 0777 / FPT 0775 / myLocal 0898, 0896, 0899).
 
 **Miscellaneous**
 
