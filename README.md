@@ -8,8 +8,8 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using CDate_gen.py. This includes:
   - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
-  - Every combinations of 2 random years from 1970 to 2025 in YYYY+yyyy format.
-  - Every combinations of 2 random date in a year in DDMM+ddmm MMDD+mmdd formats.
+  - Every combinations of 2 random years from 1970 to 2025 in YYYYyyyy format.
+  - Every combinations of 2 random date in a year in DDMMddmm & MMDDmmdd formats.
 
 * **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files.
 
