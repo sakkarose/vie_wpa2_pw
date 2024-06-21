@@ -15,11 +15,9 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks. Prioritizes commonly used prefixes from major providers (Viettel, Mobifone, and Vinaphone).
 
-**On-going Projects**
+**Miscellaneous**
 
-* **Usernames from exposed log files** - A collection of usernames extracted from publicly available log file exposures.
-
-* **Passwords from exposed log files** - A collection of passwords extracted from publicly available log file exposures.
+* **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlists.
 
 **Explanation of vie-phonenumber_main**
 
