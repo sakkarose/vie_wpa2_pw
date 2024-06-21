@@ -32,7 +32,7 @@ with open(filename, "a") as outfile:
             for day in range(1, max_days + 1):
                 # Output both formats
                 outfile.write(f"{day:02d}{month:02d}{year}\n")   
-                outfile.write(f"{month:02d}{day:02d}{year}\n")  
-
-# Remove duplicates after generation is complete
-remove_duplicates(filename) 
+                outfile.write(f"{month:02d}{day:02d}{year}\n")
+                
+            # Remove duplicates after generation is complete
+            remove_duplicates(filename) 
