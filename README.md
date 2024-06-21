@@ -1,4 +1,4 @@
-# Handcrafted WiFi Password Dictionaries & Rules for VIE Access Points
+# WiFi Password Dictionaries & Rules for VIE Access Points
 
 This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam.
 
@@ -6,10 +6,10 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **rockyou_wpa2.txt** - A modified version of the classic Rockyou wordlist optimized for WPA2 password attacks (original source: Kali Linux 2021.3).
 
-* **vie-common_date.txt** -  Combined common Vietnamese possible date-related formats. Generated and optimized using CDate_gen.py.
-  - DDMMYYYY & MMDDYYYY as legit days 1970 to 2025.
-  - YYYY+yyyy with both being years from 1970 to 2025.
-  - DDMM+ddmm with both being possible date in a year.
+* **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using CDate_gen.py. This includes:
+  - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
+  - Every combinations of 2 random years from 1970 to 2025 in YYYY+yyyy format.
+  - Every combinations of 2 random date in a year in DDMM+ddmm MMDD+mmdd formats.
 
 * **vie-phonenumber_main.txt** - Replaced by .rule file.
 
