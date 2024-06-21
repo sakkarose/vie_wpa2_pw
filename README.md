@@ -17,7 +17,7 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 **Miscellaneous**
 
-* **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlists.
+* **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlist.
 
 **Explanation of vie-phonenumber_main**
 
