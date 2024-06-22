@@ -15,8 +15,6 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
   - Every combinations of 2 random years from 1970 to 2025 in YYYYyyyy format.
   - Every combinations of 2 random date in a year in DDMMddmm & MMDDmmdd formats.
 
-* **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files. Generated and optimized using **PNm_gen.py**.
-
 * **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks.
   - Prioritizes prefixes from major providers including Viettel, Mobifone, and Vinaphone (Viettel 032, 033, 034, 035, 036, 037, 038, 039, 086, 096, 097, 098 / Mobifone 070, 076, 077, 078, 079, 089, 090, 093 / Vinaphone 081, 082, 083, 084, 085, 088, 091, 094).
   - Prefixes (033, 086, 077, 093, 088) have higher priority than the rests.
@@ -28,6 +26,8 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
   - 8-digits Vietnamese Hotline prefixes (1800 & 1900)
  
 * **rockyou_wpa2.txt** - A modified version of the classic Rockyou wordlist optimized for WPA2 password attacks (original source: Kali Linux 2021.3)
+
+* **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files. Generated and optimized using **PNm_gen.py**.
 
 **Miscellaneous**
 
