@@ -4,7 +4,7 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 **Route**
 * Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized approach.
-* **vie-personal_dehashed_dict.txt** > **vie-common_date.txt** > **vie-phonenumber_main.rule** > **vie-miscnumber.rule** > **rockyou_wpa2.txt** > **...**
+* **vie-personal_dehashed_dict.txt** > **vie-common_date.txt** > **vie-phonenumber_main.rule** > **vie-miscnumber.rule** > **rockyou_wpa2.txt** > **...** > **vie-phonenumber_sub.rule**
 
 **Wordlists**
 
