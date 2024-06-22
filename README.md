@@ -31,9 +31,9 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 **Miscellaneous**
 
-* **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlist.
-* **ssidremove.py** - Used for doublechecking if there are possible SSID in a wordlist instead of a possible password.
-* **potfileupdate.py** - Used for adding (actual) new entry from my potfile to **vie-personal_dehashed_dict.txt**.
+* **Dup_check.py** - Used for doublechecking if there are duplicates in a wordlist.
+* **SSID_remove.py** - Used for doublechecking if there are possible SSID in a wordlist instead of a possible password.
+* **Potfile_update.py** - Used for adding (actual) new entry from my potfile to **vie-personal_dehashed_dict.txt**.
 
 **Explanation of vie-phonenumber_main**
 
