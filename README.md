@@ -2,9 +2,13 @@
 
 This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam.
 
+**Route**
+* Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized approach.
+* - **vie-personal_dehashed_dict.txt** > **vie-common_date.txt** > **vie-phonenumber_main.rule** > **vie-miscnumber.rule** > ...
+
 **Wordlists**
 
-* **rockyou_wpa2.txt** - A modified version of the classic Rockyou wordlist optimized for WPA2 password attacks (original source: Kali Linux 2021.3).
+* **vie-personal_dehashed_dict.txt** - Actual Vietnamese AP passwords that I collected through dehashing using multiple Raspberry Pi devices. All 
 
 * **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using CDate_gen.py. This includes:
   - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
@@ -19,10 +23,14 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **vie-miscnumber.rule** -A Hashcat rule file designed for many short masks that aren't long enough to warrant a separate rule file. This includes:
   - 8-digits Vietnamese Hotline prefixs (1800 & 1900)
+ 
+* **rockyou_wpa2.txt** - A modified version of the classic Rockyou wordlist optimized for WPA2 password attacks (original source: Kali Linux 2021.3)
 
 **Miscellaneous**
 
 * **dupcheck.py** - Used for doublechecking if there are duplicates in a wordlist.
+* **ssidremove.py** - Used for doublechecking if there are possible SSID in a wordlist instead of a possible password.
+* **potfileupdate.py** - Used for adding (actual) new entry from my potfile to **vie-personal_hash_dict.txt**.
 
 **Explanation of vie-phonenumber_main**
 
