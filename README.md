@@ -10,12 +10,12 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 * **vie-personal_dehashed_dict.txt** - Actual Vietnamese AP passwords that I have through dehashing pcap files my multiple Raspberry Pi devices collected.
 
-* **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using CDate_gen.py. This includes:
+* **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using **CDate_gen.py**. This includes:
   - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
   - Every combinations of 2 random years from 1970 to 2025 in YYYYyyyy format.
   - Every combinations of 2 random date in a year in DDMMddmm & MMDDmmdd formats.
 
-* **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files.
+* **vie-phonenumber_main.txt** - Replaced by **vie-phonenumber_*.rule** files. Generated and optimized using **PNm_gen.py**.
 
 * **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks.
   - Prioritizes prefixes from major providers including Viettel, Mobifone, and Vinaphone (Viettel 032, 033, 034, 035, 036, 037, 038, 039, 086, 096, 097, 098 / Mobifone 070, 076, 077, 078, 079, 089, 090, 093 / Vinaphone 081, 082, 083, 084, 085, 088, 091, 094).
