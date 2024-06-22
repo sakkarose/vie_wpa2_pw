@@ -1,6 +1,6 @@
 # WPA2 Dicts & Hashcat Rules
 
-This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam.
+This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (**vie-** prefix).
 
 **Route**
 * Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized approach.
