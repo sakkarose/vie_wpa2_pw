@@ -33,5 +33,5 @@ def generate_date_strings(start_year=1970, end_year=2025):
 filename = "vie-common_date.txt"
 
 # Generate and write the date strings
-with open(filename, "w") as outfile:
+with open(filename, "w", newline="\n") as outfile:
     outfile.writelines(f"{date_str}\n" for date_str in generate_date_strings())

@@ -11,6 +11,6 @@ def generate_phone_numbers():
         for suffix in itertools.product("0123456789", repeat=7): 
             yield prefix + "".join(suffix)
 
-with open("vie-phonenumber_main.txt", "w") as file:
+with open("vie-phonenumber_main.txt", "w", newline="\n") as file:
     for phone_number in generate_phone_numbers():
         file.write(phone_number + "\n")
