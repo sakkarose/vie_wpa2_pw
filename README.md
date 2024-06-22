@@ -8,7 +8,7 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 
 **Wordlists**
 
-* **vie-personal_dehashed_dict.txt** - Actual Vietnamese AP passwords that I collected through dehashing using multiple Raspberry Pi devices.
+* **vie-personal_dehashed_dict.txt** - Actual Vietnamese AP passwords that I have through dehashing pcap files my multiple Raspberry Pi devices collected.
 
 * **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using CDate_gen.py. This includes:
   - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
