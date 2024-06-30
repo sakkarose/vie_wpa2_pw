@@ -40,5 +40,3 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 The `vie-phonenumber_main.txt` wordlist was omitted due to its large size (~3.2GB).  The `vie-phonenumber_main.rule` file serves as a compact and efficient replacement for mask attacks in Hashcat. If needed, you can use the **PNm_gen.py** to generate the wordlist.
 
 **Important Note:** Please use these resources responsibly and ethically. 
-
-This work is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
