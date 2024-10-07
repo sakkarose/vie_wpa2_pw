@@ -1,6 +1,8 @@
 # WPA2 Dicts & Hashcat Rules
 
-This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (**vie-** prefix).
+This is the resources I have researched and learned as a wireless network pentester which is my part-time work. This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (**vie-** prefix).
+
+**Important Note:** Please use these resources responsibly and ethically
 
 **Route**
 * Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized approach.
@@ -38,5 +40,3 @@ This repository contains specialized wordlists tailored for cracking WiFi passwo
 **Explanation of vie-phonenumber_main**
 
 The `vie-phonenumber_main.txt` wordlist was omitted due to its large size (~3.2GB).  The `vie-phonenumber_main.rule` file serves as a compact and efficient replacement for mask attacks in Hashcat. If needed, you can use the **PNm_gen.py** to generate the wordlist.
-
-**Important Note:** Please use these resources responsibly and ethically. 
