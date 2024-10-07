@@ -1,6 +1,6 @@
 # WPA2 Dicts & Hashcat Rules
 
-This is the resources I have researched and learned as a wireless network pentester which is my part-time work. This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (**vie-** prefix).
+This is the resources I have researched and learned as a wireless network pentester which is my part-time work. This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (with **vie-** as file prefix, and none for generic rules file).
 
 **Important Note:** Please use these resources responsibly and ethically
 
