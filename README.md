@@ -1,16 +1,16 @@
 # WPA2 Dicts & Hashcat Rules
 
-This is the resources I have researched and learned as a wireless network pentester which is my part-time work. This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (with **vie-** as file prefix, and none for generic rules file).
+This is the repository I have researched and learned as a wireless network pentester which is my part-time work. This repository contains specialized wordlists tailored for cracking WiFi passwords, with a focus on likely patterns found in Vietnam (with **vie**- as file prefix, and none for generic rules file).
 
 **Important Note:** Please use these resources responsibly and ethically
 
 **Route**
-* Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized approach.
+* Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized pentesting approach.
 * **vie-personal_dehashed_dict.txt** > **vie-common_date.txt** > **vie-phonenumber_main.rule** > **vie-miscnumber.rule** > **rockyou_wpa2.txt** > **...** > **vie-phonenumber_sub.rule**
 
 **Wordlists**
 
-* **vie-personal_dehashed_dict.txt** - Actual Vietnamese AP passwords that I have through dehashing pcap files my multiple Raspberry Pi devices collected.
+* **vie-personal_dehashed_dict.txt** - This list contains compromised Vietnamese passwords from various sources, providing a helpful baseline of passwords to avoid using.
 
 * **vie-common_date.txt** -  Combined common Vietnamese date-related formats dictionary. Generated and optimized using **CDate_gen.py**. This includes:
   - Days from 1970 to 2025 in DDMMYYYY & MMDDYYYY formats.
