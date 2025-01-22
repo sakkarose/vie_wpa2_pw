@@ -19,7 +19,7 @@ This is the repository I have researched and learned as a wireless network pente
 
 * **vie-phonenumber_main.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks.
   - Prioritizes prefixes from major providers including Viettel, Mobifone, and Vinaphone (Viettel 032, 033, 034, 035, 036, 037, 038, 039, 086, 096, 097, 098 / Mobifone 070, 076, 077, 078, 079, 089, 090, 093 / Vinaphone 081, 082, 083, 084, 085, 088, 091, 094).
-  - Prefixes (033, 086, 077, 093, 088) have higher priority than the rests.
+  - Prefixes (033, 086, 077, 093, 088) have higher priority than the rests due to the amount of distribution.
 
 * **vie-phonenumber_sub.rule** - A Hashcat rule file designed to generate 10-digit Vietnamese phone numbers for mask-based attacks.
   - Consists of prefixes from minor providers including Vietnammobile, Gmobile, Itelecom, Wintel, VNSKY, FPT and myLocal (Vietnamobile 052, 056, 058, 092 / Gmobile 059, 099 / Itelecom 087 / Wintel 0559 / VNSKY 0777 / FPT 0775 / myLocal 0898, 0896, 0899).
