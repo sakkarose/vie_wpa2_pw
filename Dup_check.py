@@ -23,7 +23,7 @@ def check_duplicates(filename):
   return duplicates
 
 # Get the filename from the user
-filename = "vie-personal_dehashed_dict.txt"  # Replace with your actual file name
+filename = "vie-personal_dehashed_dict-22jun2024.txt"  # Replace with your actual file name
 
 # Check for duplicates
 duplicates = check_duplicates(filename)
