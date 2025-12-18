@@ -4,6 +4,10 @@ This is the repository I have researched and learned as a wireless network pente
 
 **Important Note:** Please use these resources responsibly and ethically
 
+**To-do**
+- **vie-street.txt** – HCMC and Ha Noi street names combined with a number range of 0–3000 (both appended and prepended).
+- **vie-brand_year.txt** – Vietnamese brand names combined with current year (2023-2026) and common special characters (!, @, #).
+
 **Route**
 * Since I analyzed the dictionaries to determine the most efficient route for dehashing by removing duplicates, you can benefit from my optimized pentesting approach.
 * **vie-personal_dehashed_dict.txt** > **vie-common_date.txt** > **vie-phonenumber_main.rule** > **vie-miscnumber.rule** > **rockyou_wpa2.txt** > **...** > **vie-phonenumber_sub.rule**
